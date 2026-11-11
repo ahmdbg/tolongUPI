@@ -23,8 +23,8 @@
         "jenis": "Programming",
         "deskripsi": "Membantu memperbaiki error program Python",
         "imbalan": 30000,
-        "status": "open",
-        "penerima": null
+        "status": "taken",
+        "penerima": "hasan"
     },
     {
         "id": 4,
@@ -59,7 +59,7 @@
         "jenis": "Programming",
         "deskripsi": "Jokiin tugas daspro: bikin Tugas bersama semester satu",
         "imbalan": 100000,
-        "status": "open",
-        "penerima": null
+        "status": "taken",
+        "penerima": "adi"
     }
 ]
