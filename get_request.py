@@ -1,14 +1,10 @@
 
 import json
-import os
-
-
-DB_FILE = os.path.join(os.path.dirname(__file__), "requests.json")
 
 
 def get_request(username):
     # Membaca database request
-    with open(DB_FILE, "r", encoding="utf-8") as file:
+    with open("requests.json", "r") as file:
         requests = json.load(file)
 
     # Menampilkan request yang masih tersedia
@@ -54,7 +50,7 @@ def get_request(username):
             request["penerima"] = username
 
             # Menyimpan perubahan ke database
-            with open(DB_FILE, "w", encoding="utf-8") as file:
+            with open("requests.json", "w") as file:
                 json.dump(requests, file, indent=4)
 
             print("\nRequest successfully taken!")
