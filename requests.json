@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "pemberi": "nathanael",
+        "jenis": "Desain",
+        "deskripsi": "Membuat desain poster kegiatan kampus",
+        "imbalan": 25000,
+        "status": "taken",
+        "penerima": "daren"
+    },
+    {
+        "id": 2,
+        "pemberi": "amos",
+        "jenis": "Akademik",
+        "deskripsi": "Membantu merapikan dokumen tugas Word",
+        "imbalan": 15000,
+        "status": "taken",
+        "penerima": "daren"
+    },
+    {
+        "id": 3,
+        "pemberi": "budi",
+        "jenis": "Programming",
+        "deskripsi": "Membantu memperbaiki error program Python",
+        "imbalan": 30000,
+        "status": "open",
+        "penerima": null
+    },
+    {
+        "id": 4,
+        "pemberi": "sarah",
+        "jenis": "Editing",
+        "deskripsi": "Mengedit video dokumentasi kegiatan",
+        "imbalan": 50000,
+        "status": "taken",
+        "penerima": "andi"
+    }
+]
