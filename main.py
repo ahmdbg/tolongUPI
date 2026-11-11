@@ -1,5 +1,6 @@
 
 from login import register, login
+from get_request import get_request
 
 
 def dashboard(username):
@@ -7,7 +8,8 @@ def dashboard(username):
         print(f"\n=== TOLONG UPI | {username} ===")
         print("1. Create Request")
         print("2. View Requests")
-        print("3. Logout")
+        print("3. Get Request")
+        print("4. Logout")
 
         choice = input("Select an option: ")
 
@@ -18,6 +20,9 @@ def dashboard(username):
             print("Opening View Requests...")
 
         elif choice == "3":
+            get_request(username)
+
+        elif choice == "4":
             print("Logging out...")
             break
 
