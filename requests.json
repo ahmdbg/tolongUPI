@@ -34,5 +34,32 @@
         "imbalan": 50000,
         "status": "taken",
         "penerima": "andi"
+    },
+    {
+        "id": 5,
+        "pemberi": "hasan",
+        "jenis": "Akademik",
+        "deskripsi": "Membelikan Kertas HVS A4 Satu pack",
+        "imbalan": 20000,
+        "status": "open",
+        "penerima": null
+    },
+    {
+        "id": 6,
+        "pemberi": "hasan",
+        "jenis": "Desain",
+        "deskripsi": "Buatkan desain poster untuk acara MAKRAB RPL 26, ukuran 3x4.5",
+        "imbalan": 50000,
+        "status": "open",
+        "penerima": null
+    },
+    {
+        "id": 7,
+        "pemberi": "hasan",
+        "jenis": "Programming",
+        "deskripsi": "Jokiin tugas daspro: bikin Tugas bersama semester satu",
+        "imbalan": 100000,
+        "status": "open",
+        "penerima": null
     }
 ]
