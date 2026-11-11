@@ -1,6 +1,7 @@
 
 from login import register, login
 from get_request import get_request
+from post_request import post_request
 
 
 def dashboard(username):
@@ -14,7 +15,7 @@ def dashboard(username):
         choice = input("Select an option: ")
 
         if choice == "1":
-            print("Opening Create Request...")
+            post_request(username)
 
         elif choice == "2":
             print("Opening View Requests...")
