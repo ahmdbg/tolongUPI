@@ -59,6 +59,15 @@
         "jenis": "Programming",
         "deskripsi": "Jokiin tugas daspro: bikin Tugas bersama semester satu",
         "imbalan": 100000,
+        "status": "taken",
+        "penerima": "adi"
+    },
+    {
+        "id": 8,
+        "pemberi": "adi",
+        "jenis": "Akademik",
+        "deskripsi": "bawakan bolpoin saya yang ketinggalan di kelas, gedung B lantai 5 ruangan 009",
+        "imbalan": 35000,
         "status": "open",
         "penerima": null
     }
