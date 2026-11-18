@@ -41,8 +41,8 @@
         "jenis": "Akademik",
         "deskripsi": "Membelikan Kertas HVS A4 Satu pack",
         "imbalan": 20000,
-        "status": "open",
-        "penerima": null
+        "status": "taken",
+        "penerima": "adi"
     },
     {
         "id": 6,
@@ -61,5 +61,14 @@
         "imbalan": 100000,
         "status": "taken",
         "penerima": "adi"
+    },
+    {
+        "id": 8,
+        "pemberi": "adi",
+        "jenis": "Programming",
+        "deskripsi": "buatkan program untuk tugas daspro ya",
+        "imbalan": 45000,
+        "status": "open",
+        "penerima": null
     }
 ]
